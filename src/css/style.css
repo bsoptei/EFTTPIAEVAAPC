@@ -1,0 +1,27 @@
+p {
+  font-size: 20px;
+  padding: 0 50px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  background-color: #000;
+  color: #0F0;
+}
+
+.container, .stage {
+  display: flex;
+}
+
+.stage {
+  justify-content: center;
+}
+
+body {
+  animation: tilt 5s linear infinite alternate both;
+}
+
+@keyframes tilt {
+  from { transform: rotateZ(-1deg) }
+  to { transform: rotateZ(1deg) }
+}
