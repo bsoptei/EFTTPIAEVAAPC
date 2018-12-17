@@ -35,6 +35,7 @@ class Game {
       if (user.health <= 0) {
         death = true;
         View.tellTheSadTruth();
+        View.say('You are dead, motherfucker!');
       }
     };
 
