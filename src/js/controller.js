@@ -1,6 +1,6 @@
 class Controller {
   static init() {
-    window.onkeyup = function(e) {
+    window.onkeyup = (e) => {
       const key = e.keyCode ? e.keyCode : e.which;
 
       const task = () => {
@@ -18,6 +18,7 @@ class Controller {
       };
 
       Game.handle(task());
-    }
+    };
+    Controller.init = () => {};
   }
 }

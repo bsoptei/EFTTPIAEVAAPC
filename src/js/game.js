@@ -112,6 +112,7 @@ class Game {
     };
 
     user.health = 100;
+    Game.init = () => {};
     setInterval(timeFwd, 200);
   }
 

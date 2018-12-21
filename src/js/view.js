@@ -49,6 +49,7 @@ class View {
 
     View.piggyPic = loadImageFromPath(CONFIG.ENEMY_SPRITE_PATH);
     View.chicPic  = loadImageFromPath(CONFIG.PLAYER_SPRITE_PATH);
+    View.init = () => {};
   }
 
 }
